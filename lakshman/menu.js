@@ -61,7 +61,6 @@ function Maketable(aray, n) {
 }
 
 function sub(cls1, cls2){
-	document.getElementsByTagName("nav")[0].style.display="none";
 	document.querySelector("link[href='css/chome.css']").href = "css/5.css";
 	document.getElementsByClassName('header')[0].style.display = "none";
 	var head = document.getElementsByTagName("h2");
